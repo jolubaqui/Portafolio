@@ -1,0 +1,42 @@
+body {
+    height: 100%;
+    font-family-sans-serif: // Cross-platform generic font family (default user interface font)
+    system-ui, // Safari for macOS and iOS (San Francisco)
+    -apple-system, // Windows
+    "Segoe UI", // Android
+    Roboto, // Basic web fallback
+    "Helvetica Neue", Arial, // Linux
+    "Noto Sans", "Liberation Sans", // Sans serif fallback
+    sans-serif, // Emoji fonts
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+}
+
+.bg2 {
+    background: #0052D4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #6FB1FC, #4364F7, #0052D4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #6FB1FC, #4364F7, #0052D4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.color1 {
+    color: #3d0a49;
+}
+
+.color2 {
+    color: #5015bd;
+}
+
+.color3 {
+    color: #027fe9;
+}
+
+.color4 {
+    color: #00caf8;
+}
+
+.color5 {
+    text-align: center;
+    color: white;
+}
